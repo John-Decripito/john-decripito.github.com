@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header {
+	background: rgba(0,0,0,0.9);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+
+#our-story {
+	margin-top: 80px;
+	background: url("../Pictures/playstation-logo-wallpaper-thumb.jpg");
+	background-size: cover;
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 150px;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+}
+
+
+#top-exclusives {
+	margin-top: 80px;
+	background: url("../Pictures/Top-Exclusives2.jpg");
+	background-size: cover;
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 150px;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+}
+
+
+#upcoming-releases {
+	margin-top: 80px;
+	background: url("../Pictures/Upcoming-Games.jpg");
+	background-size: cover;
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 150px;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+}
+
+
+#legacy-titles {
+	margin-top: 80px;
+	background: url("../Pictures/Retro.jpg");
+	background-size: cover;
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 150px;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+}
+section:hover {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
